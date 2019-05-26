@@ -2,32 +2,77 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.psychologie-lien{
+  border:"1px solid black";
+  width: "100px";
+  height: "50px";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.recette-video{
+  position: relative;
+  bottom: 20%;
+} 
+
+.medicamentcard{
+  background-color: rgba(194, 84, 130, 0.9);
+  border-radius: 15px;
   color: white;
+  padding: '10px';
+  margin-bottom: 10px;
+} 
+/* espace admin page */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(138, 69, 98);
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidenav a:hover {
+  color: #b414b4;
 }
+
+.main {
+  margin-left: 400px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+
+/* page formulaire */ 
+
+
+.formquestion{
+border:'2px solid black';
+padding:'20px';
+margin-bottom:'20px';
+}
+
+/*profil page */ 
+.menu{
+	font-size: 18px;
+  font-weight: 36px;
+  width:'800px';
+	color:rgb(235, 46, 156);
+	font-weight: bold;
+}
+a:visited{
+	color:rgb(235, 46, 156);
+
+}
+
+
+
