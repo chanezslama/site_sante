@@ -5,7 +5,7 @@
   "proxy": "http://localhost:3010",
   "dependencies": {
     "@wojtekmaj/react-datetimerange-picker": "^2.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "mdbreact": "^4.13.0",
     "react": "^16.8.6",
     "react-datepicker": "^2.5.0",
